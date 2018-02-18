@@ -1,0 +1,129 @@
+/* line 2, ../sass/partials/_base.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, ../sass/partials/_base.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 27, ../sass/partials/_base.scss */
+body {
+  line-height: 1;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 33, ../sass/partials/_base.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 36, ../sass/partials/_base.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 41, ../sass/partials/_base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************************************************/
+/* line 66, ../sass/partials/_base.scss */
+h1 {
+  font-size: 130%;
+}
+
+/* line 70, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* line 76, ../sass/partials/_base.scss */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 4, ../sass/css.scss */
+h1 {
+  font-size: 33px;
+}
+
+/* line 8, ../sass/css.scss */
+.content {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* line 13, ../sass/css.scss */
+.go-random {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+
+/* line 19, ../sass/css.scss */
+.s-input {
+  position: fixed;
+  top: -100px;
+}
+
+/* line 24, ../sass/css.scss */
+.full-screen {
+  text-align: center;
+  font-size: 75vh;
+}
+
+/* line 29, ../sass/css.scss */
+.articles {
+  width: 700px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+/* line 33, ../sass/css.scss */
+.articles li {
+  padding-bottom: 5px;
+}
+
+/* line 40, ../sass/css.scss */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 46, ../sass/css.scss */
+.onehun {
+  height: 100%;
+  width: 100%;
+}

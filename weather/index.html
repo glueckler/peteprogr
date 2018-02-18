@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pete's Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+  <link rel="icon" href="img/pp-favicon-32.png">
+</head>
+<body>
+
+<!-- USE This URL: http://codepen.io/lankypete/pen/OpOmQV -->
+<!--ToDo
+1.weather in current location
+2.show different bg image based on weather
+3.button toggle between f/celsius
+apikey: 8d3baa5591bd8b076244d6a2b8fde415
+-->
+
+<div class="tv-background">
+  <div class="loading" style="width: 40px; margin: 0 auto; padding-top: 100px">Loading...</div>
+  <img class="load-hide hide" id="tvtvtv" src="img/retro-tv-trans.png">
+  <div class="load-hide hide" id='fuzz'></div>
+  <div id='over-fuzz' class="hide"></div>
+  <div class="screen">
+    <div class="icon"><i class="wi wi-fw"></i></div>
+    <div class="weather-info"><p class="location hide">Location</p><p class="location-data hide"></p></div>
+    <div class="weather-info"><p class="temp hide">Temperature</p><p class="temp-data hide"></p></div>
+    <div class="weather-info"><p class="condit hide">Conditions</p><p class="condit-data hide"></p></div>
+  </div>
+
+</div>
+
+
+<div class="media">
+  <ul class="list-inline">
+    <li>
+      <a href="https://codepen.io/lankypete/" id="codepen-link" >
+        <div class="social-button">
+            <span class="hover-media">co<span class="norm-media">codepen</span></span>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="represent">
+    <a href="../index.html"><img src="img/pp300.png"></a>
+</div>
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascripts/js.js"></script>
+
+</body>
+</html>

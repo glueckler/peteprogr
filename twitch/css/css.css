@@ -1,0 +1,142 @@
+/* line 2, ../sass/partials/_base.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, ../sass/partials/_base.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 27, ../sass/partials/_base.scss */
+body {
+  line-height: 1;
+}
+
+/* line 30, ../sass/partials/_base.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 33, ../sass/partials/_base.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 36, ../sass/partials/_base.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 41, ../sass/partials/_base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************************************************/
+/* line 66, ../sass/partials/_base.scss */
+h1 {
+  font-size: 130%;
+}
+
+/* line 70, ../sass/partials/_base.scss */
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* line 76, ../sass/partials/_base.scss */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 7, ../sass/css.scss */
+body {
+  font-family: "Courier New";
+  background-color: #f5f6f5;
+}
+
+/* line 12, ../sass/css.scss */
+.menu {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* line 22, ../sass/css.scss */
+.stream-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+/* line 28, ../sass/css.scss */
+.circle {
+  margin: 4px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid black 1px;
+  text-align: center;
+  background-color: white;
+  -webkit-box-shadow: 0px -1px 9px 0px #b5b5b5;
+  -moz-box-shadow: 0px -1px 9px 0px #b5b5b5;
+  box-shadow: 0px -1px 9px 0px #b5b5b5;
+}
+/* line 40, ../sass/css.scss */
+.circle img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 9px auto;
+  border: solid grey 1px;
+}
+/* line 49, ../sass/css.scss */
+.circle h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 5px 0;
+}
+/* line 54, ../sass/css.scss */
+.circle p {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  padding: 0 10px 5px;
+}
+/* line 61, ../sass/css.scss */
+.circle a {
+  color: grey;
+}
+/* line 63, ../sass/css.scss */
+.circle a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: red;
+}

@@ -1,0 +1,72 @@
+/*
+Error: Undefined variable: "$time-1".
+        on line 1 of /Users/slimbean/asdf/weather/sass/icon-classes/classes-time.scss
+
+1: .wi-time-1:before {content: $time-1;}
+2: .wi-time-2:before {content: $time-2;}
+3: .wi-time-3:before {content: $time-3;}
+4: .wi-time-4:before {content: $time-4;}
+5: .wi-time-5:before {content: $time-5;}
+6: .wi-time-6:before {content: $time-6;}
+
+Backtrace:
+/Users/slimbean/asdf/weather/sass/icon-classes/classes-time.scss:1
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:20:in `render'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/bin/compass:22:in `load'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/bin/compass:22:in `<main>'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/slimbean/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$time-1\".\A         on line 1 of /Users/slimbean/asdf/weather/sass/icon-classes/classes-time.scss\A \A 1: .wi-time-1:before {content: $time-1;}\A 2: .wi-time-2:before {content: $time-2;}\A 3: .wi-time-3:before {content: $time-3;}\A 4: .wi-time-4:before {content: $time-4;}\A 5: .wi-time-5:before {content: $time-5;}\A 6: .wi-time-6:before {content: $time-6;}"; }

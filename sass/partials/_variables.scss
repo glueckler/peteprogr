@@ -1,0 +1,17 @@
+//Colors
+
+$home-bg: rgb(255, 158, 0);  //orange
+
+$pjbg1: #FDFFFC;  //near white
+
+//Media responsiveness
+
+$min-height: 650px;
+
+$small-break: 801px;
+$menu-break: 640px;
+
+$min-height2: 800px;
+$menu-height: 290px;
+$menu-break-position: $min-height - $menu-height;
+$small-height: 660px;

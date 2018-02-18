@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" ng-app="app1">
+<head>
+  <meta charset="utf-8">
+
+  <title>Wikipedia Search</title>
+  <meta name="description" content="A site by Pete Progr">
+  <meta name="author" content="Pete Progr">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/pp-favicon-32.png">
+
+  <!--Bootstrap css
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  -->
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/pp-represent.css">
+</head>
+
+<body>
+  <div class="go-random">
+    <a href='https://en.wikipedia.org/wiki/Special:Random' target='_blank'>
+      or go random
+    </a>
+  </div>
+
+  <div ng-controller="ctrl1" class="content">
+    <form ng-submit="findWiki()">
+      <input type="text" ng-keypress="upWordLength()" ng-model="search" class="s-input">
+    </form>
+
+      <div class="flex onehun"><p class="full-screen">{{search}}</p></div>
+
+      <div class="articles">
+        <ul>
+          <a ng-href="{{result.page}}"  ng-repeat="result in results" class="article">
+            <li>
+              <h1>{{result.title}}</h1>
+              <p>{{result.body}}</p>
+            </li>
+          </a>
+        </ul>
+      </div>
+
+  </div>
+
+  <div class="represent">
+          <a href="../index.html"><img src="img/pp300.png"></a>
+      </div>
+
+
+
+  <!--Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <!--BootStrap
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  -->
+  <script src="js/js.js"></script>
+</body>
+</html>
+

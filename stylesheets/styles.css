@@ -1,0 +1,217 @@
+/* line 1, ../sass/partials/_base.scss */
+body {
+  font-family: arial;
+  margin: 0;
+}
+
+/* line 6, ../sass/partials/_base.scss */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/styles.scss */
+.border {
+  border: solid black;
+}
+
+/* line 11, ../sass/styles.scss */
+.view-port {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 650px;
+  overflow: scroll;
+}
+
+/* line 19, ../sass/styles.scss */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 25, ../sass/styles.scss */
+.hide {
+  display: none;
+}
+
+/* line 29, ../sass/styles.scss */
+.home {
+  background: #FDFFFC;
+}
+/* line 31, ../sass/styles.scss */
+.home p {
+  padding: 0 25px;
+}
+
+/* line 36, ../sass/styles.scss */
+.home-content {
+  margin-bottom: 7%;
+}
+
+/* line 40, ../sass/styles.scss */
+#projDiv1, #projDiv2, #projDiv3, #projDiv4, #projDivOther {
+  background: #FDFFFC;
+}
+@media (max-width: 801px) {
+  /* line 40, ../sass/styles.scss */
+  #projDiv1, #projDiv2, #projDiv3, #projDiv4, #projDivOther {
+    display: block;
+  }
+}
+
+/* line 63, ../sass/styles.scss */
+.proj-box {
+  width: 800px;
+  padding: 0 20px;
+  border-bottom: solid black 1px;
+}
+@media (max-width: 801px) {
+  /* line 63, ../sass/styles.scss */
+  .proj-box {
+    width: 90%;
+    box-sizing: border-box;
+  }
+}
+
+/* line 73, ../sass/styles.scss */
+.proj-desc {
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 399px;
+}
+/* line 79, ../sass/styles.scss */
+.proj-desc li {
+  padding: 0 7px 20px;
+  display: inline-block;
+  width: inherit;
+  box-sizing: border-box;
+}
+/* line 85, ../sass/styles.scss */
+.proj-desc li:first-of-type {
+  font-size: 1.4em;
+}
+@media (max-width: 801px) {
+  /* line 73, ../sass/styles.scss */
+  .proj-desc {
+    width: 100%;
+    text-align: center;
+    font-size: 0.85em;
+  }
+}
+
+/* line 95, ../sass/styles.scss */
+.project-img {
+  box-sizing: border-box;
+  display: inline;
+  float: right;
+  width: 399px;
+  border: solid grey 1px;
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+/* line 103, ../sass/styles.scss */
+.project-img:hover {
+  opacity: .5;
+}
+@media (max-width: 801px) {
+  /* line 95, ../sass/styles.scss */
+  .project-img {
+    width: 100%;
+  }
+}
+
+/* line 111, ../sass/styles.scss */
+.proj-link {
+  padding-top: 60px;
+  clear: right;
+  text-align: center;
+}
+/* line 115, ../sass/styles.scss */
+.proj-link a {
+  text-decoration: none;
+  color: grey;
+  transition: color 0.1s;
+}
+/* line 119, ../sass/styles.scss */
+.proj-link a:hover {
+  color: black;
+}
+
+/* line 130, ../sass/styles.scss */
+.menus {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+@media (max-width: 801px) {
+  /* line 130, ../sass/styles.scss */
+  .menus {
+    display: none;
+  }
+}
+
+/* line 139, ../sass/styles.scss */
+.proj-menu {
+  float: left;
+}
+/* line 141, ../sass/styles.scss */
+.proj-menu li {
+  display: inline-flex;
+  padding-left: 20px;
+}
+/* line 144, ../sass/styles.scss */
+.proj-menu li span {
+  cursor: pointer;
+  border-bottom: solid rgba(0, 0, 0, 0.05) 2px;
+  transition: border .5s ease-out;
+}
+/* line 148, ../sass/styles.scss */
+.proj-menu li span:hover {
+  border-bottom: solid black 2px !important;
+}
+/* line 152, ../sass/styles.scss */
+.proj-menu li:first-child span {
+  border-bottom: solid black 2px;
+}
+
+/* line 159, ../sass/styles.scss */
+.media-menu {
+  float: right;
+  position: relative;
+  right: 20px;
+}
+/* line 163, ../sass/styles.scss */
+.media-menu a {
+  color: black;
+  text-decoration: none;
+}
+/* line 167, ../sass/styles.scss */
+.media-menu li {
+  display: inline-flex;
+  padding-right: 50px;
+}
+
+/* line 172, ../sass/styles.scss */
+.hover-media {
+  position: relative;
+}
+
+/* line 175, ../sass/styles.scss */
+.norm-media {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: px;
+  opacity: .5;
+  transition: opacity .5s ease-in-out;
+}
+
+/* line 183, ../sass/styles.scss */
+.norm-media:hover {
+  opacity: 1;
+}

@@ -1,0 +1,25 @@
+/* line 126, ../sass/styles.scss */
+.represent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 131, ../sass/styles.scss */
+.represent img {
+  opacity: .2;
+  width: 150px;
+}
+
+@media (min-width: 1200px) {
+  /* line 135, ../sass/styles.scss */
+  .represent img {
+    opacity: .5;
+  }
+}
+@media (max-width: 576px) {
+  /* line 140, ../sass/styles.scss */
+  .represent img {
+    width: 150px;
+  }
+}
